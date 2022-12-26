@@ -1,0 +1,61 @@
+
+.bg{
+    background-image: url(../img/banner-01.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+  
+}
+.layer{
+   
+    background-color: rgba(0, 0, 0, 0.717);
+    height: 100%;
+}
+.hvr-radial-out{
+    padding: 5px;
+    margin-left: 80px;
+    background-color: yellow;
+}
+.bglayer{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.717);
+    transition: all .5s;
+}
+.col-md-4:hover .bglayer{
+    top:0;
+}
+.activelink{
+    background-color: coral;
+   
+    border-radius: 60px;
+}
+.footer{
+    background-image: url(../img/bg.png);
+    background-position: center center;
+    background-size: cover;
+}
+.btn-primary{
+    background-color:darkgoldenrod;
+   
+
+}
+.loading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(15, 15, 98);
+    z-index: 99999;
+}
+#top{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    display: none;
+}
+
