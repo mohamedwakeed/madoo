@@ -1,6 +1,6 @@
 
 .bg{
-    background-image: url(../img/banner-01.jpg);
+    background-image: url(../img/banner-01\ \(5\).jpg);
     height: 100vh;
     background-position: center center;
     background-size: cover;
@@ -12,9 +12,10 @@
     height: 100%;
 }
 .hvr-radial-out{
-    padding: 5px;
+    padding: 10px;
     margin-left: 80px;
-    background-color: yellow;
+    
+    
 }
 .bglayer{
     position: absolute;
@@ -58,4 +59,3 @@
     right: 15px;
     display: none;
 }
-
